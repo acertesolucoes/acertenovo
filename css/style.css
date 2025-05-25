@@ -598,33 +598,33 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: white;
-  border: none;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  box-shadow: 0 3px 10px var(--shadow-color);
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   transition: var(--transition);
+  color: var(--text-color);
 }
 
 .slider-btn:hover {
   background-color: var(--primary-color);
   color: white;
 }
-
 .slider-dots {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  gap: 8px;
+  gap: 10px;
 }
 
 .dot {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
-  background-color: #ddd;
+  background-color: var(--text-light);
   cursor: pointer;
   transition: var(--transition);
 }
