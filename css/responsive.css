@@ -96,6 +96,14 @@
     margin-bottom: 40px;
   }
   
+  .header .nav-container {
+    padding: 12px 0;
+  }
+  
+  .header .logo img {
+    height: 40px;
+  }
+  
   .hero {
     height: auto;
     min-height: 100vh;
@@ -218,6 +226,7 @@
   .cliente-card {
     margin: 10px auto;
     max-width: 90%;
+    flex: 0 0 100%;
   }
   
   .slider-controls {
@@ -238,6 +247,14 @@
   .section-title {
     font-size: 1.8rem;
     margin-bottom: 30px;
+  }
+  
+  .header .nav-container {
+    padding: 10px 0;
+  }
+  
+  .header .logo img {
+    height: 35px;
   }
   
   .hero {
